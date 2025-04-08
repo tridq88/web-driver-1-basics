@@ -12,14 +12,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WebDriverBasicsLocatorsTest {
-	WebDriver webDriver;
-	
-	@BeforeMethod
-	public void before() {
-		WebDriverManager.chromedriver().setup();
-		webDriver = new ChromeDriver();
-	}
+public class WebDriverBasicsLocatorsWithIdTest extends AbstractChromeWebDriverTest {
 	
 	@Test
 	public void testTitle() throws Exception {
@@ -60,8 +53,4 @@ public class WebDriverBasicsLocatorsTest {
 		System.out.println(nameElement.getAttribute("value"));
 	}
 	
-	@AfterMethod
-	public void after() {
-		webDriver.quit();
-	}
 }
