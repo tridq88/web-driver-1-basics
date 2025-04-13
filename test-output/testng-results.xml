@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-13T09:33:58Z" name="Default suite" finished-at="2025-04-13T09:34:25Z" duration-ms="26685">
+  <suite started-at="2025-04-13T10:05:42Z" name="Default suite" finished-at="2025-04-13T10:06:05Z" duration-ms="23126">
     <groups>
     </groups>
-    <test started-at="2025-04-13T09:33:58Z" name="Default test" finished-at="2025-04-13T09:34:25Z" duration-ms="26685">
-      <class name="com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest@7a5ceedd]" started-at="2025-04-13T09:33:58Z" name="before" finished-at="2025-04-13T09:34:04Z" duration-ms="5896" status="PASS">
+    <test started-at="2025-04-13T10:05:42Z" name="Default test" finished-at="2025-04-13T10:06:05Z" duration-ms="23126">
+      <class name="com.in28minutes.webdriver.login.StaticLoginTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.in28minutes.webdriver.login.StaticLoginTest@7d900ecf]" started-at="2025-04-13T10:05:42Z" name="before" finished-at="2025-04-13T10:05:48Z" duration-ms="6243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="login()[pri:0, instance:com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest@7a5ceedd]" started-at="2025-04-13T09:34:04Z" name="login" finished-at="2025-04-13T09:34:23Z" duration-ms="19109" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.in28minutes.webdriver.login.StaticLoginTest@7d900ecf]" started-at="2025-04-13T10:05:48Z" name="login" finished-at="2025-04-13T10:06:04Z" duration-ms="15506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="after()[pri:0, instance:com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest@7a5ceedd]" started-at="2025-04-13T09:34:23Z" name="after" finished-at="2025-04-13T09:34:25Z" duration-ms="1583" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:com.in28minutes.webdriver.login.StaticLoginTest@7d900ecf]" started-at="2025-04-13T10:06:04Z" name="after" finished-at="2025-04-13T10:06:05Z" duration-ms="1330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest -->
+      </class> <!-- com.in28minutes.webdriver.login.StaticLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

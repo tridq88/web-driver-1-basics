@@ -1,4 +1,4 @@
-package com.in28minutes.webdriver.basics.Form;
+package com.in28minutes.webdriver.basics;
 
 import static org.testng.AssertJUnit.assertEquals;
 
