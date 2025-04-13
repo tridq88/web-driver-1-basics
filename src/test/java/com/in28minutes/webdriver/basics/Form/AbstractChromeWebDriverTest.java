@@ -1,4 +1,4 @@
-package com.in28minutes.webdriver.basics;
+package com.in28minutes.webdriver.basics.Form;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public abstract class AbstractChromeWebDriverTest {
 
-	protected WebDriver webDriver;
+	protected WebDriver driver;
 
 	public AbstractChromeWebDriverTest() {
 		super();
@@ -18,12 +18,19 @@ public abstract class AbstractChromeWebDriverTest {
 	@BeforeMethod
 	public void before() {
 		WebDriverManager.chromedriver().setup();
-		webDriver = new ChromeDriver();
+		driver = new ChromeDriver();
 	}
 
 	@AfterMethod
 	public void after() {
-		webDriver.quit();
+		driver.quit();
 	}
 
+	public void sleep(int seconds) {
+		try {
+			Thread.sleep(seconds * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }

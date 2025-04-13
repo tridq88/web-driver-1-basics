@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T09:41:42Z" name="Default suite" finished-at="2025-04-08T09:41:56Z" duration-ms="14541">
+  <suite started-at="2025-04-13T09:33:58Z" name="Default suite" finished-at="2025-04-13T09:34:25Z" duration-ms="26685">
     <groups>
     </groups>
-    <test started-at="2025-04-08T09:41:42Z" name="Default test" finished-at="2025-04-08T09:41:56Z" duration-ms="14541">
-      <class name="com.in28minutes.webdriver.basics.WebDriverBasicsLocatorsWithIdTest">
-        <test-method is-config="true" signature="before()[pri:0, instance:com.in28minutes.webdriver.basics.WebDriverBasicsLocatorsWithIdTest@5b799640]" started-at="2025-04-08T09:41:42Z" name="before" finished-at="2025-04-08T09:41:52Z" duration-ms="10701" status="PASS">
+    <test started-at="2025-04-13T09:33:58Z" name="Default test" finished-at="2025-04-13T09:34:25Z" duration-ms="26685">
+      <class name="com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest@7a5ceedd]" started-at="2025-04-13T09:33:58Z" name="before" finished-at="2025-04-13T09:34:04Z" duration-ms="5896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="testGetInfoSubmitButton()[pri:0, instance:com.in28minutes.webdriver.basics.WebDriverBasicsLocatorsWithIdTest@5b799640]" started-at="2025-04-08T09:41:52Z" name="testGetInfoSubmitButton" finished-at="2025-04-08T09:41:54Z" duration-ms="1390" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest@7a5ceedd]" started-at="2025-04-13T09:34:04Z" name="login" finished-at="2025-04-13T09:34:23Z" duration-ms="19109" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetInfoSubmitButton -->
-        <test-method is-config="true" signature="after()[pri:0, instance:com.in28minutes.webdriver.basics.WebDriverBasicsLocatorsWithIdTest@5b799640]" started-at="2025-04-08T09:41:54Z" name="after" finished-at="2025-04-08T09:41:56Z" duration-ms="2378" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest@7a5ceedd]" started-at="2025-04-13T09:34:23Z" name="after" finished-at="2025-04-13T09:34:25Z" duration-ms="1583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- com.in28minutes.webdriver.basics.WebDriverBasicsLocatorsWithIdTest -->
+      </class> <!-- com.in28minutes.webdriver.basics.Form.WebDriverBasicsLocatorsWithNameTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
